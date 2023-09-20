@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <img src="img/Avatar.webp" alt="Аватар" class="header__img">
+        <div class="header__middle">
+            <h1>Иван Петров</h1>
+            <p>Frontend Developer</p>
+        </div>
+        <div class="header__contact">
+            <h2>Контакты</h2>
+            <a href="tel:+79223344455" class="header__link">+79223344455</a>
+            <a href="mailto:email@yandex.ru" class="header__link">email@yandex.ru</a>
+        </div>
+    </header>
+    <hr>
+    <p><b>Немного обо мне:</b> это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатниксоздал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно прожил без заметных изменений пять веков...</p>
+    <table>
+        <tr>
+            <th>Хобби</th>
+            <th>Социальные сети</th>
+        </tr>
+        <tr>
+            <td>
+                <ul>
+                    <li>Чтение</li>
+                    <li>Путешествия</li>
+                    <li>Настольные игры</li>
+                    <li>Плавание</li>
+                </ul>
+            </td>
+            <td>
+                <ol>
+                    <a href="index.html" class="table__link"><li>VK</li></a>
+                    <a href="index.html" class="table__link"><li>Instagram</li></a>
+                    <a href="index.html" class="table__link"><li>Telegram</li></a>
+                </ol>
+            </td>
+        </tr>
+    </table>
+    <div class="splitter"><b>Интересующие технологии</b></div>
+    <div class="tech">
+        <div class="tech__item">
+            <img class="tech__item-img" src="img/JavaScript.webp" alt="JavaScript">
+            <p>JavaScript</p>
+        </div>
+        <div class="tech__item">
+            <img class="tech__item-img" src="img/Python.png" alt="Python">
+            <p>Python</p>
+        </div>
+        <div class="tech__item">
+            <img class="tech__item-img" src="img/VueJS.webp" alt="VueJS">
+            <p>VueJS</p>
+        </div>
+        <div class="tech__item">
+            <img class="tech__item-img" src="img/PostgreSQL.webp" alt="PostgreSQL">
+            <p>PostgreSQL</p>
+        </div>
+        <div class="tech__item">
+            <img class="tech__item-img" src="img/Docker.png" alt="Docker">
+            <p>Docker</p>
+        </div>
+    </div>
+    <div class="splitter"><b>Форма обратной связи</b></div>
+    <div class="form__input">
+        <input class="form__singular" name="form__name" type="text" placeholder="Ваше имя"/>
+        <input class="form__singular" name="form__phone" type="tel" placeholder="Телефон"/>
+    </div>
+    <textarea name="form__message">Ваш запрос</textarea>
+    <button class="form__button">Отправить</button>
+</body>
+</html>
